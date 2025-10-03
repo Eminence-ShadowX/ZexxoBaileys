@@ -1,9 +1,10 @@
 // Tambahkan di bagian paling atas
 import chalk from "chalk"
 
-console.log(chalk.hex("#a020f0")("════════════════════════════════════"))
-console.log(chalk.hex("#a020f0")("     THANK YOU FOR USING BAILEYS BY ZEXXO\n TELEGRAM ZEXXO : @xyzexxo   "))
-console.log(chalk.hex("#a020f0")("════════════════════════════════════"))
+console.log(chalk.hex("#a020f0")("▀▀▀█ █▀ █░█ █░█ ▄▀▄\n░▄▀░ █▀ ▄▀▄ ▄▀▄ █░█\n▀▀▀▀ ▀▀ ▀░▀ ▀░▀ ░▀░"))
+console.log(chalk.hex("#a020f0")("     THANK YOU FOR USING BAILEYS BY ZEXXO   "))
+console.log(chalk.hex("#6f00ff")("Follow @xxzexxo if u'll looking for updates"));
+
 import makeWASocket from './Socket/index'
 
 export * from '../WAProto/index.js'
